@@ -1,5 +1,5 @@
 # Редактор параметров
-[Demo](https://parameter-editor-phi.vercel.app/)
+[Demo](https://parameter-editor-phi.vercel.app/)  
 Простое React приложение для редактирования параметров модели. Этот проект предназначен для демонстрации работы с параметрами и их значениями в React с TypeScript.
 
 ## Описание проекта
