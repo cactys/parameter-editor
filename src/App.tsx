@@ -45,8 +45,7 @@ interface Model {
 }
 
 function App() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [model, setModel] = useState<Model>(initialModel)
+  const [model] = useState<Model>(initialModel)
   const [resultModel, setResultModel] = useState<Model | null>(null)
 
   // Ссылка на экземпляр компонента ParamEditor
