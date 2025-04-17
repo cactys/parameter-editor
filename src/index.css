@@ -1,0 +1,50 @@
+/* Global styling based on our variables */
+@import url(./assets/normalize.css);
+@import url(./assets/variables.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-md);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: var(--font-family-mono);
+  background-color: var(--color-background-light);
+  padding: 0.2em 0.4em;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
